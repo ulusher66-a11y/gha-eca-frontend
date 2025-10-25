@@ -1,0 +1,160 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f8fc;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 600px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Heading */
+.form-container h1 {
+  text-align: center;
+  color: #004aad; /* GHA blue tone */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 📋 Labels and Inputs */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #004aad;
+  outline: none;
+}
+
+/* ✅ Submit Button */
+button {
+  width: 100%;
+  background: #004aad;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0074ff;
+}
+
+/* 📘 Confirmation Table */
+.table-section {
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-section h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #004aad;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background: #f2f6fa;
+}
+
+table tr:hover {
+  background: #e0efff;
+}
+.admin-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-btn,
+.logout-btn {
+  background: #004aad;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background: #0074ff;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.table-container {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #2e7d32;
+  color: white;
+}
