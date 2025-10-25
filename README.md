@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+GHA Extra-Curricular Activities Management System (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Project Overview
 
-## Available Scripts
+The GHA Extra-Curricular Activities Management System (ECA-MS) is a full-stack web application designed for GHAcademy to simplify the registration, coordination, and monitoring of extracurricular activities.
+This frontend module provides an intuitive user interface for learners, educatorss, and administrators to interact with the system effortlessly.
 
-In the project directory, you can run:
+ Features
 
-### `npm start`
+。 Interactive registration form for students
+。 Activity browsing and search function
+。Responsive and modern React interface
+。Real-time communication with backend API
+。Smooth data updates via RESTful services
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Tech Stack
+Category	Technology
+Frontend	React.js
+Styling	CSS3 / JSX
+State Management	React Hooks
+Backend	Spring Boot
+ (Java)
+Database	MySQL
+Version Control	Git + GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Installation & Setup
 
-### `npm test`
+Step 1: Clone the Repository
+git clone https://github.com/ulusher66-a11y/gha-eca-frontend.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Step 2: Navigate to the Project Folder
+cd gha-eca-frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Step 3: Install Dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Step 4: Start the Development Server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Step 5: Access the App
+Visit your browser at http://localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend Repository
+GHA ECA Backend – Spring Boot + MySQL
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Screenshots (Optional)
+You can later include:
+Homepage UI
+Registration form
+Confirmation message view
+(Add your screenshots under a screenshots/ folder.)
 
-## Learn More
+Future Enhancements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add login & authentication (JWT)
+Implement role-based dashboards
+Integrate email notifications
+Include attendance tracking for clubs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ Author
+Uzayisenga Chantal
+Rwanda
+Extracurricular Activities Coordinator, GHills Academy
+MIT Student – UNILAK
+Languages: English/French/中文 (Chinese)/Kinyarwanda
 
-### Code Splitting
+ Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Grateful to the UNILAK-MIT Advanced Programming Concepts and Emerging Technology Lecturer,Mr. Ignace Hakizimana and my classmates for endless guidance and support throughout the journey of building projects.
